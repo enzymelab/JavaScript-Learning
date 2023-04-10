@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="layout.css"/>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <h1>SnapShot</h1>
+    <div class="pictureList">
+    <ul id="imagegallery">
+        <li>
+            <a href="images/1.png" onclick="showPic(this); return false;" title = "rainbow beads">Rainbow Beads</a>
+        </li>
+        <li>
+            <a href="images/2.png" onclick="showPic(this);return false;" title="Star beads">Star Beads</a>
+        </li>
+        <li>
+            <a href="images/3.png" onclick="showPic(this);return false;" title="Metal beads">Metal Beads</a>
+        </li>
+        <li>
+            <a href="images/4.png" onclick="showPic(this);return false;" title="Pearl">Pearl</a>
+        </li>
+        <li>
+            <a href="images/5.png" onclick="showPic(this);return false;" title="Crystal beads">Crystal Beads</a>
+        </li>
+        <li>
+            <a href="images/6.png" onclick="showPic(this);return false;" title="Wooden beads">Wood Beads</a>
+        </li>
+
+    </ul>
+       
+
+<div class="picture">
+    <img id="placeholder" src="images/flower.JPG" alt="my picture" />
+    <p id="description">My flower</p>
+</div>
+</div>
+    <div id="testdiv"></div>
+    <script src="showPic.js"></script>
+</body>
+</html>
